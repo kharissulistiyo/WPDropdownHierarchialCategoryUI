@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP Dropdown Hierarchial Category UI
 Version: 0.0.1
-Description: Dropdown hierarchial category in WordPress post write panel or editing screen. It makes the category lists in a better UI which enables show/hide toggle of child categories.
+Description: Dropdown hierarchial category in WordPress post write panel or editing screen. It makes the categories list in a better UI which enables show/hide toggle of child categories.
 Author: Kharis Sulistiyono
 Author URI: http://twitter.com/kharissulistiyo
 Plugin URI: http://www.kharissulistiyono.com/wp-dropdown-hierarchial-category-ui-plugin
