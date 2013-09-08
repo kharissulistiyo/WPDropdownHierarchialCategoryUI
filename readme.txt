@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Dropdown hierarchial category in WordPress post write panel or editing screen. It makes the category lists in a better UI with height auto of its box container and enables show/hide toggle of child categories.
+Dropdown hierarchial category in WordPress post write panel or editing screen. It makes the category lists in a better UI which enables show/hide toggle of child categories.
 
 == Changelog ==
 
