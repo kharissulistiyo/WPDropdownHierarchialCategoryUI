@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Dropdown hierarchial category in WordPress post write panel or editing screen. It makes the categories list in a better UI which enables show/hide toggle of child categories.
 
-http://www.kharissulistiyono.com/wp-content/uploads/2013/09/plugin-screenshot.png
+<img src="http://www.kharissulistiyono.com/wp-content/uploads/2013/09/plugin-screenshot.png" alt="Screenshot" />
 
 == Changelog ==
 
