@@ -17,7 +17,7 @@ Dropdown hierarchial category in WordPress post write panel or editing screen. I
 
 The idea comes from default WordPress hierarchial post categories which looks not good. Imagine that there are a lot of child categories. After selecting child category then publishing or updating a post, the arrangement seems not pretty --- the child categories moved away from its parent. This plugin tackles that situation.
 
-Here is the screenshot after the plugin have been activated.
+Here are the screenshots after the plugin have been activated.
 
 <img src="http://www.kharissulistiyono.com/wp-content/uploads/2013/09/plugin-screenshot-0.png" alt="Plugin Screenshot" />
 
