@@ -1,0 +1,204 @@
+	@import "assets/less/elements.less";
+	
+	
+	
+	
+	// -- Variables --
+		
+		// Colors
+		@bodybg: #fff;
+		@textcolor: #7f8c8d;
+		@titlecolor: #536263;
+		@body-font-size: 14px;
+		@line: #e5e5e5;
+		
+		// Box
+		@pagewidh: 1200px;
+		@section-padding-bottom: 30px; 
+		
+		// Typography
+		@global-font: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+
+		// Lines
+		
+		 
+			
+		// Mixins 
+		.section-border-bottom(@size:1px, @style:solid, @color:#e5e5e5){
+			border-bottom:@size @style @color;
+		}
+
+		.button-normal(@bg:#de3681, @color:#fff){
+			background:@bg;
+			color:@color;
+			text-decoration:none;
+			.border-radius(5, 5, 5, 5);
+		}		
+
+
+// --- MAIN STYLES -- //
+
+
+body{
+	background:@bodybg;
+	color:@textcolor;
+	font-family:@global-font;
+	padding:0;
+	margin:0;			
+}
+
+p{
+	margin-bottom: 30px;
+}
+
+.section{
+	padding-bottom:@section-padding-bottom;
+}
+
+.page{
+
+	width:@pagewidh;
+	max-width:100%;
+	margin:0 auto 0 auto;
+	.section &{
+		text-align:center;
+	}
+	
+}
+
+.title{
+	color:@titlecolor;
+}
+
+.button{
+	.button-normal;
+	padding:8px 23px;
+}
+
+
+#head{
+	text-align:center;
+	h1{
+		&:after{
+			content:'';
+			display:block;
+			width:60px;
+			border-bottom:1px solid @line;
+			margin:40px auto 40px auto;
+		}
+	}
+	.description{
+		margin-bottom:50px;
+		font-size:@body-font-size * 1.6;
+	}
+	.button{
+		display:inline-block;
+		width:120px;
+		text-align:center;
+	}
+}
+
+#spread-the-world{
+	.tweet-this{
+		padding-left:0px;
+	}
+}
+
+.fork-menu{
+	position:absolute;
+	right:0;
+	top:0;
+	width:150px;
+	height:150px;
+	overflow:hidden;
+	.github-fork-ribbon{
+		top: 42px;
+		right: -43px;
+
+		/* Rotate the banner 45 degrees */
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);	
+			  
+		position: absolute;
+		padding: 2px 0px;
+		background-color: rgb(170, 0, 0);
+		background-image: -moz-linear-gradient(center top , transparent, rgba(0, 0, 0, 0.15));
+		box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+		z-index: 9999;	  
+	}
+	a{
+		/* Set the font */
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		font-weight: 700;
+		color: white;
+
+		/* Set the text properties */
+		text-decoration: none;
+		text-shadow: 0 -1px rgba(0,0,0,0.5);
+		text-align: center;
+
+		/* Set the geometry. If you fiddle with these you'll also need to tweak the top and right values in #github-fork-ribbon. */
+		width: 200px;
+		line-height: 20px;
+
+		/* Set the layout properties */
+		display: inline-block;
+		padding: 2px 0;
+
+		/* Add "stitching" effect */
+		border-width: 1px 0;
+		border-style: dotted;
+		border-color: rgba(255,255,255,0.7);	
+	}
+}
+
+
+// -- RESPONSIVE -- //
+
+@media only screen and (max-width:1199px){
+
+	.page{
+		padding-left:10px;
+		padding-right:10px;
+		width:80%;
+	}
+
+}
+
+@media only screen and (min-width:761px){
+
+	#head{
+		.description{
+			width:450px;
+			margin-left:auto;
+			margin-right:auto;
+		}	
+	}
+	
+	.hide-desktop{
+		display:none;
+		visibility:hidden;
+	}
+	
+}
+
+@media only screen and (max-width:760px){
+	
+	#head{
+		h1{
+			max-width:500px;
+			margin-left:auto;
+			margin-right:auto;			
+		}
+	}	
+	
+	.hide-mobile{
+		display:none;
+		visibility:hidden;
+	}	
+	
+}
+
