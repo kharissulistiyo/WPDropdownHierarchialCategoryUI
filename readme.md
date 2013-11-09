@@ -39,7 +39,7 @@ Parent category expanded.
 ### Changelog
 ---
 
-Version 1.1
+Version 1.2
 
 - Add plugin settings
 - Add translation ready
