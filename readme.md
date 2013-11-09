@@ -4,14 +4,14 @@ Contributor: Kharis Sulistiyono
 Tags: admin, ui, categories, hierarchy  
 Requires at least: 3.4  
 Tested up to: 3.6  
-Stable tag: 0.0.1  
+Stable tag: 1.2  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 
 ### Description
---
+---
 
 Dropdown hierarchial category in WordPress post write panel or editing screen. It makes the categories list in a better UI which enables show/hide toggle of child categories.
 
@@ -20,11 +20,12 @@ The idea comes from default WordPress hierarchial post categories which looks no
 
 
 ### Plugin settings
---
+---
 
 <img src="https://raw.github.com/kharissulistiyo/WPDropdownHierarchialCategoryUI/gh-pages/assets/images/screenshot-3.png" alt="Plugin Settings" />
 
 ### Here are the taxonomy box screenshot.
+---
 
 <img src="https://raw.github.com/kharissulistiyo/WPDropdownHierarchialCategoryUI/gh-pages/assets/images/screenshot-1.png" alt="Plugin Screenshot" />
 
@@ -36,13 +37,24 @@ Parent category expanded.
 
 
 ### Changelog
---
+---
+
+Version 1.1
+
+- Add plugin settings
+- Add translation ready
+
+
+Version 1.1
+
+- Fix typos
+
 
 Version 1.0 
 
 - Initial release
 
 ### Production package
---
+---
 
 <a href="http://wordpress.org/support/plugin/wp-dropdown-hierarchial-category-ui" target="_blank">Download from WordPress.org plugin directory.</a>
